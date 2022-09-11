@@ -6,7 +6,9 @@ import "./technologies.css";
 function Technologies() {
   return (
     <div className="technologies__container" id="technologies">
-      <div style={{ textAlign: "center" }}>Some of the technologies I use</div>
+      <div style={{ textAlign: "center", fontSize: "2.5rem" }}>
+        TECHNOLOGIES
+      </div>
 
       <div className="tech__cards__container">
         {techs.map((e, idx) => {
