@@ -8,24 +8,21 @@
 
 .about__container img {
   border-radius: 50%;
-  border: 0.5px solid rgb(218, 218, 218);
+  border: 1px solid rgb(218, 218, 218);
   margin-bottom: 1rem;
   margin-right: 1rem;
   max-width: 250px;
   max-height: 250px;
-  /* object-fit: scale-down; */
+  margin-bottom: 2rem;
 }
 .about__text {
   max-width: 600px;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 900px) {
   .about__container {
     flex-direction: column;
-  }
-
-  .about__container img {
-    margin-bottom: 2rem;
   }
 }
 

@@ -20,3 +20,8 @@
 #tsparticles {
   height: 100vh;
 }
+
+.contact {
+  display: flex;
+  flex-direction: row;
+}

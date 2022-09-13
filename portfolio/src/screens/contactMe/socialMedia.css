@@ -1,0 +1,24 @@
+.socialMedia {
+  background-color: var(--nav-color);
+  width: 100%;
+  color: white;
+  /* position: absolute; */
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.socialMedia h1 {
+  font-weight: 500;
+}
+
+.social-icons {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: transparent;
+}

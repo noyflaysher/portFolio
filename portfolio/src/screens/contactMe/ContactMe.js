@@ -11,6 +11,10 @@ import EditIcon from "@mui/icons-material/Edit";
 import PersonIcon from "@mui/icons-material/Person";
 import SendIcon from "@mui/icons-material/Send";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import SocialMedia from "./SocialMedia";
 
 function createLinks() {
   return navigationLinks.map((e, idx) => (
@@ -87,111 +91,112 @@ function ContactMe() {
   };
 
   return (
-    <div className="contactMe__container" id="contact">
-      <h1 className="contactMe__headline">CONTACT ME</h1>
-      <div>
-        <form ref={form}>
-          <div className="contactMe__input">
-            <TextField
+    <div className="x">
+      <div className="contactMe__container" id="contact">
+        <h1 className="contactMe__headline">CONTACT ME</h1>
+        <div>
+          <form ref={form}>
+            <div className="contactMe__input">
+              <TextField
+                variant="outlined"
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="start">
+                      <PersonIcon />
+                    </InputAdornment>
+                  ),
+                }}
+                label="Full Name"
+                onChange={changeNameHandler}
+                name="name"
+                value={name}
+                error={nameError}
+                fullWidth
+                sx={{
+                  "& > :not(style)": {
+                    m: 1,
+                    color: "black",
+                    fontFamily: "inherit",
+                    fontSize: "1.1rem",
+                  },
+                }}
+              />
+            </div>
+            <div className="contactMe__input">
+              <TextField
+                variant="outlined"
+                id="input-with-icon-textfield"
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="start">
+                      <EmailIcon />
+                    </InputAdornment>
+                  ),
+                }}
+                label="Email"
+                name="email"
+                error={emailError}
+                value={email}
+                onChange={changeEmailHandler}
+                fullWidth
+                sx={{
+                  "& > :not(style)": {
+                    m: 1,
+                    color: "black",
+                    fontFamily: "inherit",
+                    fontSize: "1.1rem",
+                  },
+                }}
+              />
+            </div>
+            <div className="contactMe__input">
+              <TextField
+                id="input-with-icon-textfield"
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="start">
+                      <EditIcon />
+                    </InputAdornment>
+                  ),
+                }}
+                variant="outlined"
+                label="Message"
+                name="message"
+                error={messageError}
+                value={message}
+                onChange={changeMessageHandler}
+                multiline
+                fullWidth
+                row={10}
+                sx={{
+                  "& > :not(style)": {
+                    m: 1,
+                    height: "200px",
+                    color: "black",
+                    fontFamily: "inherit",
+                    fontSize: "1.1rem",
+                  },
+                }}
+              />
+            </div>
+            <Button
+              onClick={submitHandler}
+              type="submit"
+              size="md"
               variant="outlined"
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="start">
-                    <PersonIcon />
-                  </InputAdornment>
-                ),
-              }}
-              label="Full Name"
-              onChange={changeNameHandler}
-              name="name"
-              value={name}
-              error={nameError}
-              fullWidth
               sx={{
-                "& > :not(style)": {
-                  m: 1,
-                  color: "black",
-                  fontFamily: "inherit",
-                  fontSize: "1.1rem",
-                },
+                mt: 1.7,
+                mb: 2,
+                width: "90px",
+                fontWeight: "bold",
+                border: "3px",
+                fontSize: "1.1rem",
               }}
-            />
-          </div>
-          <div className="contactMe__input">
-            <TextField
-              variant="outlined"
-              id="input-with-icon-textfield"
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="start">
-                    <EmailIcon />
-                  </InputAdornment>
-                ),
-              }}
-              label="Email"
-              name="email"
-              error={emailError}
-              value={email}
-              onChange={changeEmailHandler}
-              fullWidth
-              sx={{
-                "& > :not(style)": {
-                  m: 1,
-                  color: "black",
-                  fontFamily: "inherit",
-                  fontSize: "1.1rem",
-                },
-              }}
-            />
-          </div>
-          <div className="contactMe__input">
-            <TextField
-              id="input-with-icon-textfield"
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="start">
-                    <EditIcon />
-                  </InputAdornment>
-                ),
-              }}
-              variant="outlined"
-              label="Message"
-              name="message"
-              error={messageError}
-              value={message}
-              onChange={changeMessageHandler}
-              multiline
-              fullWidth
-              row={10}
-              sx={{
-                "& > :not(style)": {
-                  m: 1,
-                  height: "200px",
-                  color: "black",
-                  fontFamily: "inherit",
-                  fontSize: "1.1rem",
-                },
-              }}
-            />
-          </div>
-          <Button
-            onClick={submitHandler}
-            type="submit"
-            size="md"
-            variant="outlined"
-            sx={{
-              mt: 1.7,
-              mb: 2,
-              width: "90px",
-              fontWeight: "bold",
-              border: "3px",
-              fontSize: "1.1rem",
-            }}
-            endIcon={<KeyboardArrowRightIcon />}
-          >
-            Send
-          </Button>
-          {/* <button
+              endIcon={<KeyboardArrowRightIcon />}
+            >
+              Send
+            </Button>
+            {/* <button
             // disabled={!formIsValid}
             onClick={submitHandler}
             className="contactMe__button"
@@ -199,8 +204,18 @@ function ContactMe() {
           >
             Submit
           </button> */}
-        </form>
+          </form>
+        </div>
       </div>
+      <SocialMedia />
+      {/* <div className="socialMedia" id="#social-media">
+        <h1>Connect with me</h1>
+        <div className="social">
+          <LinkedInIcon />
+          <GitHubIcon />
+          <FacebookOutlinedIcon />
+        </div>
+      </div> */}
     </div>
   );
 }

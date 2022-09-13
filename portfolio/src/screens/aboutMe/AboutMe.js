@@ -12,9 +12,11 @@ function AboutMe() {
         <h1>ABOUT ME</h1>
         <p>
           Independent with self-learning capabilities , highly motivated,
-          responsible and reliable with high technical skills. . Creative
-          thinking for solving technological and interpersonal problems. Looking
-          for a challenging development role ***chage
+          responsible and reliable with high technical skills. Creative thinking
+          for solving technological and interpersonal problems.
+        </p>
+        <p>
+          <b>Looking for a challenging development role.</b>
         </p>
       </div>
     </div>

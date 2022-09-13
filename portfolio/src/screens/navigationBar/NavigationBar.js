@@ -3,6 +3,7 @@ import "./navigation.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../helpers/navigationLinks";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 function createLinks() {
   return navigationLinks.map((e, idx) => (
@@ -28,6 +29,13 @@ function NavigationBar() {
       >
         <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
           Noy Flaysher
+        </Navbar.Brand>
+        <Navbar.Brand
+          style={{ marginLeft: "5rem" }}
+          href="https://online.flippingbook.com/view/414795398/"
+          target="_blank"
+        >
+          <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
