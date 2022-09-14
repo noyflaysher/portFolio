@@ -45,7 +45,12 @@ function Portfolio() {
         <Modal.Footer>
           <div style={{ fontSize: "1.2rem" }}>Technologies used: </div>
           <p style={{ fontSize: "1.2rem", marginRight: "auto" }}>{data.tech}</p>
-          <Button onClick={() => setModalShow(false)}>Close</Button>
+          <Button
+            style={{ fontSize: "1.1rem" }}
+            onClick={() => setModalShow(false)}
+          >
+            Close
+          </Button>
         </Modal.Footer>
       </Modal>
     );
@@ -61,7 +66,6 @@ function Portfolio() {
               image: e.image,
               link: e.link,
               desc: e.desc,
-              summary: e.summary,
               tech: e.tech,
             });
             setModalShow(true);
