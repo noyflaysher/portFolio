@@ -12,13 +12,17 @@ function AboutMe() {
         <h1>ABOUT ME</h1>
         <p>
           I have a passion for creative thinking and highly motivated to learn new things.
-          I'm independent with self-learning capabilities, responsible and reliable with high technical skills. 
+          I'm independent with self-learning capabilities, very good interpersonal skills and really love to work in a team.
+          <br></br>
+
+          When I'm not coding, you'll find me doing sport especially yoga ;)
+
 
         </p>
         <p>
           <b>Looking for a challenging development role.</b>
         </p>
-        <a className="cv" href="https://online.flippingbook.com/view/691422814/" target="_blank"> to my CV</a>
+        <a className="cv" href="https://online.flippingbook.com/view/691422814/" target="_blank"> Download my CV</a>
       </div>
     </div>
   );
