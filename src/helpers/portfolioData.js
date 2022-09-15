@@ -82,14 +82,6 @@ const portfolioData = [
     summary: "A fun game",
     tech: "HTML | CSS | JavaScript",
   },
-  {
-    image: "",
-    link: "https://juancamachoportfolio-first.netlify.app/",
-    desc: "Recipe Store",
-    summary:
-      "A final project for application course in my degree, front to back.",
-    tech: "HTML | CSS | JavaScript | React | NodeJs | Express | MobgoDB",
-  },
 ];
 
 export default portfolioData;
