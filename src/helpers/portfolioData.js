@@ -15,7 +15,7 @@ const portfolioData = [
     link: "https://food-app-noy.netlify.app/",
     desc: "Food Order Store",
     summary: "An app to buy food, using data base, hooks.",
-    tech: "React",
+    tech: "JavaScript | CSS | HTML | React",
   },
 
   {
