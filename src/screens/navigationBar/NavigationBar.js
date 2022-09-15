@@ -3,7 +3,7 @@ import "./navigation.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../helpers/navigationLinks";
-import ContactPageIcon from "@mui/icons-material/ContactPage";
+// import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 function createLinks() {
   return navigationLinks.map((e, idx) => (
@@ -35,7 +35,7 @@ function NavigationBar() {
           href="https://online.flippingbook.com/view/691422814/"
           target="_blank"
         >
-          <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} />
+          {/* <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
