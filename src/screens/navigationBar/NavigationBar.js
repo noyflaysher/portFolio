@@ -32,7 +32,7 @@ function NavigationBar() {
         </Navbar.Brand>
         <Navbar.Brand
           style={{ marginLeft: "5rem" }}
-          href="https://online.flippingbook.com/view/414795398/"
+          href="https://online.flippingbook.com/view/691422814/"
           target="_blank"
         >
           <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} />
