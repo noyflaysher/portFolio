@@ -11,9 +11,9 @@ function AboutMe() {
       <div className="about__text">
         <h1>ABOUT ME</h1>
         <p>
-          Independent with self-learning capabilities , highly motivated,
-          responsible and reliable with high technical skills. Creative thinking
-          for solving technological and interpersonal problems.
+          I have a passion for creative thinking and highly motivated to learn new things.
+          I'm independent with self-learning capabilities, responsible and reliable with high technical skills. 
+
         </p>
         <p>
           <b>Looking for a challenging development role.</b>
