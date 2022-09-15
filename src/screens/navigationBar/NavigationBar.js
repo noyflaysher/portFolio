@@ -38,7 +38,7 @@ function NavigationBar() {
           target="_blank"
         >
           {/* <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} /> */}
-          <ImProfile style={{ fontSize: "2rem" }} />
+          <ImProfile style={{ fontSize: "1.8rem" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
