@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="main-info">
       <h1>Hi Everyone</h1>
-      <Typed
+      <Typed className="typed"
         strings={[
           " ",
           "I am Noy Flaysher",
