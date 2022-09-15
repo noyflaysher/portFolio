@@ -55,7 +55,7 @@ const portfolioData = [
   },
   {
     image: touringNat,
-    link: "https://touringnat.netlify.app/",
+    link: "https://natour-web-noy.netlify.app/",
     desc: "Touring Web",
     summary: "The powers of CSS",
     tech: "HTML | CSS | SASS",

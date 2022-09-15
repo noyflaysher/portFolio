@@ -196,26 +196,10 @@ function ContactMe() {
             >
               Send
             </Button>
-            {/* <button
-            // disabled={!formIsValid}
-            onClick={submitHandler}
-            className="contactMe__button"
-            type="submit"
-          >
-            Submit
-          </button> */}
           </form>
         </div>
       </div>
       <SocialMedia />
-      {/* <div className="socialMedia" id="#social-media">
-        <h1>Connect with me</h1>
-        <div className="social">
-          <LinkedInIcon />
-          <GitHubIcon />
-          <FacebookOutlinedIcon />
-        </div>
-      </div> */}
     </div>
   );
 }
