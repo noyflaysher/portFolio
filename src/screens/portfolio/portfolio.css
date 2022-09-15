@@ -60,10 +60,16 @@
 @media only screen and (max-width: 800px) {
   #portfolio__card__container {
     width: 100%;
-    height:10rem;
     padding: 0.5rem 4rem;
     border: none;
   }
+
+  #contained-modal-img-vcenter {
+    width: 100% !important;
+    height: 250px;
+  }
+
+
 }
 
 #contained-modal-title-vcenter {
