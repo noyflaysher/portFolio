@@ -11,8 +11,9 @@ function AboutMe() {
       <div className="about__text">
         <h1>ABOUT ME</h1>
         <p>
-          I have a passion for creative thinking and highly motivated to learn new things.
-          I'm independent with self-learning capabilities, very good interpersonal skills and really love to work in a team.
+          I am passionate about creative thinking, highly motivated to learn new things and always looking for ways to challenge myself.
+          I'm independent person with self-learning capabilities, great interpersonal skills and really love to work in a team.
+          <br></br>
           <br></br>
 
           When I'm not coding, you'll find me doing sport especially yoga ;)
