@@ -3,6 +3,8 @@ import "./navigation.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../helpers/navigationLinks";
+import { ImProfile } from 'react-icons/im';
+
 // import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 function createLinks() {
@@ -36,6 +38,7 @@ function NavigationBar() {
           target="_blank"
         >
           {/* <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} /> */}
+          <ImProfile style={{ fontSize: "2rem" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse

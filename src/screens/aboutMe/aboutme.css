@@ -20,6 +20,13 @@
   font-size: 1.2rem;
 }
 
+.cv, .cv:link, .cv:hover{
+  text-decoration: underline;
+  color:black
+}
+
+
+
 @media only screen and (max-width: 900px) {
   .about__container {
     flex-direction: column;

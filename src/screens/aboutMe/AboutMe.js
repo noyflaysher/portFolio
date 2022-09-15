@@ -18,6 +18,7 @@ function AboutMe() {
         <p>
           <b>Looking for a challenging development role.</b>
         </p>
+        <a className="cv" href="https://online.flippingbook.com/view/691422814/" target="_blank"> to my CV</a>
       </div>
     </div>
   );
