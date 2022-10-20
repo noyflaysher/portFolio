@@ -34,7 +34,7 @@ function NavigationBar() {
         </Navbar.Brand>
         <Navbar.Brand
           style={{ marginLeft: "5rem" }}
-          href="https://online.flippingbook.com/view/691422814/"
+          href="https://www.docdroid.net/H9J3Yrr/noy-flaysher-316221043-cv-pdf"
           target="_blank"
         >
           {/* <ContactPageIcon size="lg" sx={{ fontSize: 35, color: "white" }} /> */}
