@@ -10,7 +10,7 @@ function Header() {
         strings={[
           " ",
           "I am Noy Flaysher",
-          "3rd Computer Science student",
+          "3rd year Computer Science student",
           "Looking for a FullStack developer role          ",
           " ",
           " ",
