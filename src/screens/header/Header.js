@@ -1,19 +1,20 @@
-import React from "react";
-import "./header.css";
-import Typed from "react-typed";
+import React from 'react';
+import './header.css';
+import Typed from 'react-typed';
 
 function Header() {
   return (
-    <div className="main-info">
+    <div className='main-info'>
       <h1>Hi Everyone</h1>
-      <Typed className="typed"
+      <Typed
+        className='typed'
         strings={[
-          " ",
-          "I am Noy Flaysher",
-          "3rd year Computer Science student",
-          "Looking for a FullStack developer role          ",
-          " ",
-          " ",
+          ' ',
+          'I am Noy Flaysher',
+          'Passionate Full Stack developer',
+          'Looking for my next challenging job',
+          ' ',
+          ' ',
         ]}
         typeSpeed={40}
         backSpeed={50}
