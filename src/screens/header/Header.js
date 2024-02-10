@@ -8,14 +8,7 @@ function Header() {
       <h1>Hi Everyone</h1>
       <Typed
         className='typed'
-        strings={[
-          ' ',
-          'I am Noy Flaysher',
-          'Passionate Full Stack developer',
-          'Looking for my next challenging job',
-          ' ',
-          ' ',
-        ]}
+        strings={[' ', 'I am Noy Flaysher', 'Full Stack developer', ' ', ' ']}
         typeSpeed={40}
         backSpeed={50}
         loop
